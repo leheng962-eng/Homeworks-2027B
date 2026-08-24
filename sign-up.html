@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - Sign Up</title>
+    <link rel="stylesheet" href="./css.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">TechStore</h1>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#products">Products</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+
+            <a href="signup.html" class="signup-btn">Sign Up</a>
+        </nav>
+    </header>
+
+    <!-- Sign Up Section -->
+    <section class="signup-section">
+
+        <div class="signup-container">
+
+            <div class="signup-image">
+                <h2>Welcome to TechStore</h2>
+                <p>
+                    Create your account and discover
+                    amazing technology products.
+                </p>
+            </div>
+
+            <div class="signup-form">
+
+                <h2>Create Account</h2>
+                <p class="form-description">
+                    Sign up to start shopping with us.
+                </p>
+
+                <form>
+
+                    <label for="name">Full Name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Enter your full name"
+                        required
+                    >
+
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+
+                    <label for="password">Password</label>
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="Enter your password"
+                        required
+                    >
+
+                    <label for="confirm-password">Confirm Password</label>
+                    <input
+                        type="password"
+                        id="confirm-password"
+                        placeholder="Confirm your password"
+                        required
+                    >
+
+                    <div class="terms">
+                        <input type="checkbox" id="terms" required>
+                        <label for="terms">
+                            I agree to the Terms & Conditions
+                        </label>
+                    </div>
+
+                    <button type="submit" class="create-btn">
+                        Create Account
+                    </button>
+
+                </form>
+
+                <p class="login-text">
+                    Already have an account?
+                    <a href="login.html">Login</a>
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 TechStore. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
